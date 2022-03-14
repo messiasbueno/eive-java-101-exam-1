@@ -199,7 +199,7 @@
            }
        }
        ```
-    * Classes e Métodos de instância precisam ser instanciados para utilização.
+    * Atributos e Métodos de instância precisam ser instanciados para utilização.
        ```java
        
        class Funcionario {
@@ -212,7 +212,7 @@
            }
        }
        ```
-    * Classes e Métodos de classes podem ser utilizados sem serem instanciados.
+    * Atributos e Métodos de classes podem ser utilizados sem serem instanciados.
        ```java
        
        class Funcionario {
