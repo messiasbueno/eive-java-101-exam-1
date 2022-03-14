@@ -199,8 +199,31 @@
            }
        }
        ```
-    * Métodos de instância são utilizados para criar objetos e retornar sua referencia.
+    * Classes e Métodos de instância precisam ser instanciados para utilização.
        ```java
+       
+       class Funcionario {
+           String nome;
+       }
+       
+       public class Main {
+           public static void main(String[] args) {
+               Funcionario messias = new Funcionario();
+           }
+       }
+       ```
+    * Classes e Métodos de classes podem ser utilizados sem serem instanciados.
+       ```java
+       
+       class Funcionario {
+           String nome;
+	        static double contador;
+	
+	         public static double getContador() {
+		          return contador;
+	         }
+       }
+       
        public class Main {
            public static void main(String[] args) {
                Funcionario messias = new Funcionario();
